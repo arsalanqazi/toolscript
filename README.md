@@ -1,7 +1,7 @@
 # toolscript
 This is my collection of script to make my multiomics work easy.
 
-## MAF to VCF Converter
+## 1. MAF to VCF Converter
 
 Converts MAF (Mutation Annotation Format) files to VCF (Variant Call Format) files. Preserves variant information per sample and generates a minimal VCF compatible with downstream tools including ANNOVAR and VCF validators.
 
