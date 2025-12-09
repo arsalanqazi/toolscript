@@ -36,11 +36,11 @@ pip install pandas
 
 ### Notes
 * The script automatically detects and normalizes column names, but your MAF file must contain at least the following columns (case-insensitive):
-- Chromosome
-- Start_Position
-- Reference_Allele
-- Tumor_Seq_Allele2
-- Tumor_Sample_Barcode
+  + Chromosome
+  + Start_Position
+  + Reference_Allele
+  + Tumor_Seq_Allele2
+  + Tumor_Sample_Barcode
 * Missing sample names will be automatically assigned as Sample1, Sample2, etc.
 * Default allele depths (T_REF_COUNT and T_ALT_COUNT) are set to 5 if not provided.
 * Output VCF will include all tumor samples in the order detected in the MAF.
